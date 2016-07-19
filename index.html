@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Белтехноцентр</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/materialize.css" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body class="valign-wrapper">
+    <div id="wrapper">
+        <header>
+            <div id="top-content-holder">
+                <div id="logo" class="transition"><a href="/">Белтехноцентр</a></div>
+                <ul id="menu">
+                    <li class="waves-effect waves-light"><a href="#about-company" id="about-company-link">О компании | Услуги</a></li>
+                    <li class="waves-effect waves-light btn red hide-on-small-only" id="contacts-toggle">Контакты</li>
+                </ul>
+            </div>
+        </header>
+
+        <section class="page valign" id="page-about">
+            <div class="row valign-wrapper">
+                <div class="col s12 m6 l6 pull-l1 valign no-p" id="hero-text">
+                    <p class="hero-text">Лучшая строительная компания для реализации Ваших проектов.</p>
+                    <a href="#contacts-mobile" class="btn-large waves-effect waves-light red hide-on-med-and-up" id="contacts-mobile-link">Связаться</a>
+                </div>
+
+                <div class="col s12 m6 l4 hide-on-small-only">
+                    <div id="contact-form">
+
+                        <div id="contact-form-front" class="card-panel no-p transition-material">
+                            <div class="row no-mb">
+                                <h4 class="col s12 grey-text text-darken-3">Связаться</h4>
+                                <form class="col s12" id="form-content">
+                                    <div class="row">
+                                        <!--<div class="input-field col s12">
+                                            <input placeholder="Введите название организации" id="sender_orgname" type="text" class="validate">
+                                            <label for="sender_orgname">Название организации</label>
+                                        </div>-->
+                                        <div class="input-field col s12">
+                                            <input placeholder="Введите ваше имя" id="sender_name" name="sender_name" type="text" class="validate">
+                                            <label for="sender_name">Ваше имя</label>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <input placeholder="Введите Ваш email" id="sender_email" name="sender_email" type="text" class="validate">
+                                            <label for="sender_email">Ваш email</label>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <textarea id="sender_message" name="sender_message" class="materialize-textarea"></textarea>
+                                            <label for="sender_message">Введите текст сообщения</label>
+                                        </div>
+                                        <div class="row no-mb">
+                                            <button type="submit" id="send" class="waves-effect waves-light btn col s6"><i class="material-icons right">send</i>Отправить</button>
+                                            <div class="col s5 push-s1">
+                                                <div class="mail-send-result green-text left" id="success">Отправлено!</div>
+                                                <div class="mail-send-result red-text left" id="fail">Ошибка отправки.</div>
+                                                <div class="preloader-wrapper small active right" id="form-preloader">
+                                                  <div class="spinner-layer spinner-green-only">
+                                                    <div class="circle-clipper left">
+                                                      <div class="circle"></div>
+                                                    </div><div class="gap-patch">
+                                                      <div class="circle"></div>
+                                                    </div><div class="circle-clipper right">
+                                                      <div class="circle"></div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div id="contact-form-back" class="card-panel no-p transition">
+                            <div class="row no-mb">
+                                <h4 class="col s10 grey-text text-darken-3">Контакты</h4>
+                                <h4 class="col s1 grey-text text-darken-3" id="close-contacts">+</h4>
+                                <div class="col s12">
+                                    <ul class="collection">
+                                        <li class="collection-item"><div><i class="material-icons left">email</i> Email: <a href="mailto:beltechcentr@gmail.com">beltechcentr@gmail.com</a></div></li>
+                                        <li class="collection-item"><div><i class="material-icons left">contact_phone</i> Номер телефона: <a href="tel:8029656565">8029656565</a></div></li>
+                                        <li class="collection-item"><div><i class="material-icons left">business</i> Адрес: скоро добавим...</div></li>
+                                    </ul>
+                                </div>
+                                <iframe frameborder="0" style="border:0; width:100%; height:200px;" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJu7L22Q3P20YRIx5xaAQb5jo&key=AIzaSyCufWHWRGOFdqYs8txiW4z9ZEIJGAIZ6mI"></iframe>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="row no-mb">
+            <div class="col s6">
+                <span class="copy hide-on-small-only">Belarussian Technical Center&copy2016</span>
+                <span class="copy hide-on-med-and-up">Белтехноцентр&copy2016</span>
+                <a id="quality-policy-link" class="hide-on-med-and-down transition" href="#quality-policy">Политика в области качества</a>
+            </div>
+            <p id="developer" class="col s6 right-align"><span class="hide-on-small-only">crafted</span> with <span id="heart">❤</span> by <a target="_blank" href="https://exymax.github.com/portfolio">exymax</a></p>
+        </footer>
+    </div>
+
+    <div class="modal modal-fixed-footer" id="quality-policy">
+        <div class="modal-content">
+            <h4>Политика в области качества</h4>
+            <p>Основой своей стратегии УП "Белтехноцентр" считает сохранение ведущих позиций на внутреннем рынке среди белорусских строителных компаний в области инженерных изысканий, комплексного проектирования, строительства и реконструкции зданий и сооружений
+                производственного, культурно-социального и жилого назначения через полное удовлетворение требований потребителей.
+                <h5>Основные цели и задачи:</h5>
+                <ul class="quality-list">
+                    <li>Сохранение ведущих позиций на среди белорусских и зарубежных строителных компаний</li>
+                    <li>Наращивание объёма строительно-монтажных работ</li>
+                    <li>Обеспечение высокого уровня благосостояния сотрудников</li>
+                    <li>Сохранение финансовой стабильности</li>
+                    <li>Постоянное улучшение Системы менеждмента качества.</li>
+                </ul>
+                <h5>Пути реализации намеченных целей и задач:</h5>
+                <ul class="quality-list">
+                    <li>Определение приоритетных направлений в строительстве</li>
+                    <li>Изучение и удовлетворение потребностей заказчика и потребителей услуг</li>
+                    <li>Постоянное совершенствование Системы менеждмента качества, основанной на базе международного стандарта ISO 9001</li>
+                    <li>Разработка, внедрение, поддержание и постоянное совершенствование системы управления окружающей средой, основанной на базе международного стандарта ISO 14001</li>
+                    <li>Разработка, внедрение, поддержание и постоянное совершенствование системы управления охраной труда, основанной на базе международного стандарта OHSAS 18000</li>
+                    <li>Проведение контроля качества инженерно-изыскательских, проектных, строительно-монтажных работ и промышленной продукции на всех этапах производства</li>
+                    <li>Обучение и постоянное повышение квалификации и технической оснащённости персонала.</li>
+                </ul>
+
+                <p><b>НАШ УСПЕХ - КОНТРОЛЬ С НАЧАЛА ПРОЕКТИРОВАНИЯ ДО ОКОНЧАНИЯ СТРОИТЕЛЬСТВА!</b></p>
+            </p>
+        </div>
+        <div class="modal-footer">
+            <a href="#" class="modal-action modal-close btn-flat">Закрыть</a>
+        </div>
+    </div>
+
+
+    <div class="modal modal-fixed-footer" id="about-company">
+        <div class="modal-content">
+            <h4>О компании</h4>
+            <p>
+                <h5>Наша компания имеет большой опыт в организации строительного процесса и  специализируется на выполнении строительно-монтажных работ:</h5>
+                <ul id="work-types">
+                    <li>Каменные (возведение опор и стен из штучного материала – бетонных блоков, камня, кирпича, устройство монолитных покрытий, устройство сплошных (бесшовных) покрытий)</li>
+                    <li>Железобетонные (установка опалубки, армирование)</li>
+                    <li>Монтажные (доставка и установка готовых изделий, монтаж стальных строительных конструкций, монтаж легких ограждающий конструкций)</li>
+                    <li>Плотничные (установка деревянных изделий, в том числе дверей и окон, настил полов из паркета или досок)</li>
+                    <li>Кровельные работы (Устройство кровель из рулонных, мастичных, листовых и штучных материалов, плоские кровли, скатные кровли)</li>
+                    <li>Фасадные работы (легкая штукатурная система утепления (применение минераловатных и пенополистерольных утеплителей и штукатурных составов), вентилируемые фасады (применение различных отделочных материалов на усмотрение заказчика «от
+                        сайдинга до плит керамогранита»)</li>
+                    <li>Отделочные (штукатурка, облицовка плиткой или оклеивание обоями стен зданий, устройство покрытий из штучных материалов, синтетических рулонных материалов, покрытие пола линолеумом, заполнение оконных проемов, окна из поливинилхлоридного
+                        профиля, бруса деревянного, алюминиевого профиля)</li>
+                    <li>Малярные работы</li>
+                    <li>Электротехнические работы</li>
+                    <li>Сантехнические работы (Монтаж систем внутренней канализации зданий, устройство сетей и систем отопления, водоснабжения, канализации, вентиляции)</li>
+                    <li>Благоустройство территорий</li>
+                </ul>
+
+                <b>Нами постоянно совершенствуются процессы многоступенчатого управления, снабжения, контроля качества и технического контроля. Обращаясь к нам, вы получите действительно профессиональную помощь в строительстве , тем самым обеспечите 100% гарантию исполнения обязательств с нашей стороны.
+                         Наша организация имеет все необходимые разрешительные документы для организации строительства, такие как ISO 9001 , а также аттестаты и сертификаты установленного образца.
+                         Мы готовы решать все вопросы связанные с исполнением наших обязательств круглосуточно и без выходных.</b>
+
+            </p>
+        </div>
+        <div class="modal-footer">
+            <a href="#" class="modal-action modal-close btn-flat">Закрыть</a>
+        </div>
+    </div>
+
+    <div class="modal modal-fixed-footer" id="contacts-mobile">
+        <div class="modal-content">
+            <h4>Контакты</h4>
+            <p>
+                <ul class="collection">
+                    <li class="collection-item"><div><i class="material-icons left">email</i> Email: <a href="mailto:beltechcentr@gmail.com">beltechcentr@gmail.com</a></div></li>
+                    <li class="collection-item"><div><i class="material-icons left">contact_phone</i> Номер телефона: <a href="tel:8029656565">8029656565</a></div></li>
+                </ul>
+                <h5>Мы на карте</h5>
+                <iframe frameborder="0" style="border:0; width:100%; height:200px;" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJu7L22Q3P20YRIx5xaAQb5jo&key=AIzaSyCufWHWRGOFdqYs8txiW4z9ZEIJGAIZ6mI"></iframe>
+            </p>
+        </div>
+        <div class="modal-footer">
+            <a href="#" class="modal-action modal-close btn-flat">Закрыть</a>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
