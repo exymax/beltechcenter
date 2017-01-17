@@ -11,8 +11,8 @@ $(document).ready(() => {
     $("#form-content").on("submit", function(e) {
         e.preventDefault();
         const formData = $(this).serializeArray();
-        $("#form-preloader").fadeIn();
         if(formIsValid(formData)) {
+            $("#form-preloader").fadeIn();
             emailjs.send("gmail", "template_9IdDAZYD", 
             {sender_name: formData[0].value, sender_email: formData[1].value, sender_message: formData[2].value})
                 .then(function(response) {
